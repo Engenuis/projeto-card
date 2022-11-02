@@ -1,0 +1,120 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: 'Inter', sans-serif;
+}
+
+body, html{
+    width: 100vw;
+    height: 100vh;
+    overflow-x: hidden;
+}
+
+body{
+    background-color: #23252C;
+}
+
+div#root > div.container{
+    width: 317px;
+    margin: 44px auto 40px auto;
+    background-color: #1A1B21;
+    border-radius: 15px;
+    box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.9);
+    overflow: hidden;
+}
+
+div#root > div.container > header > img.dev-image{
+    width: 317px;
+}
+
+div#root > div.container > header > h1{
+    color: white;
+    text-align: center;
+    font-weight: 700;
+    font-size: 25px;
+    margin-top: 15px;
+    margin-bottom: 6px;
+}
+
+div#root > div.container > header > h2{
+    color: #F3BF99;
+    text-align: center;
+    font-weight: 400;
+    font-size: 13px;
+    margin-bottom: 9px;
+}
+
+div#root > div.container > header > p{
+    color: #F5F5F5;
+    text-align: center;
+    font-weight: 400;
+    font-size: 10px;
+    padding-bottom: 15px;
+}
+
+div#root > div.container > header > section.links{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+div#root > div.container > header > section.links > button.mail{
+    background-color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    width: 115px;
+    height: 35px;
+    padding: 9px 20px;
+    margin-left: 35px;
+    border-radius: 6px;
+    font-weight: 500;
+    font-size: 15px;
+}
+
+div#root > div.container > header > section.links > button.linkedin{
+    background-color: #5093E2;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    width: 115px;
+    height: 35px;
+    border-radius: 6px;
+    margin-right: 35px;
+    padding: 9px 8px;
+    font-weight: 500;
+    font-size: 15px;
+}
+
+div#root > div.container > main{
+    height: 150px;
+    padding: 0px auto 0px 33px;
+    margin: 33px;
+}
+
+div#root > div.container > main > h1{
+    color: #F5F5F5;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 24px;
+}
+
+div#root > div.container > main > p{
+    color: #F5F5F5;
+    font-weight: 400;
+    font-size: 10px;
+}
+
+div#root > div.container > footer{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #161619;
+    height: 64px;
+}
+
+div#root > div.container > footer > a > img{
+    margin: 15px;
+}
